@@ -3,6 +3,7 @@ import { People } from "./modules/people";
 import { AxiosProvider } from "./shared/context";
 
 import "./app.css";
+import DataProvider from "./shared/context/DataProvider";
 
 export function App() {
   return (
@@ -28,7 +29,9 @@ export function App() {
         </header>
 
         <section>
-          <People />
+          <DataProvider>
+            <People />
+          </DataProvider>
         </section>
       </div>
     </AxiosProvider>

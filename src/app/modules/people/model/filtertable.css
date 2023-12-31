@@ -1,0 +1,9 @@
+.filtertable {
+  overflow: scroll;
+  height: 300px;
+  scroll-behavior: smooth;
+}
+
+.filtertable::-webkit-scrollbar {
+  display: none;
+}

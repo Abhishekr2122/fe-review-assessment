@@ -1,0 +1,8 @@
+.activebtn {
+  translate: 0px -5px;
+  transition-duration: 0.5s;
+}
+
+.btn {
+  transition-duration: 0.5s;
+}

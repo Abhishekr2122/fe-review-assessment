@@ -1,5 +1,9 @@
 table {
   width: 100%;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  padding: 1rem;
+  border-radius: 2px;
 }
 
 th {
